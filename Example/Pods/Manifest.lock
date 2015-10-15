@@ -1,0 +1,14 @@
+PODS:
+  - AXRegex (0.1.0)
+
+DEPENDENCIES:
+  - AXRegex (from `../`)
+
+EXTERNAL SOURCES:
+  AXRegex:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AXRegex: 4f832a418f0c390f8ac1e3915ba7d87817262a92
+
+COCOAPODS: 0.38.2
