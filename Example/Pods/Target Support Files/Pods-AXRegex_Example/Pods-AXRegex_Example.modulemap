@@ -1,0 +1,6 @@
+framework module Pods_AXRegex_Example {
+  umbrella header "Pods-AXRegex_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
