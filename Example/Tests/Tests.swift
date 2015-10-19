@@ -17,7 +17,7 @@ class Tests: XCTestCase {
     
     func testRegexStruct() {
         self.measureBlock {
-            let regex = Regex(RegexPattern().Email)
+            let regex = Regex(RegexPattern.Email)
             if !regex.match("abcdefg@gmail.com") {
                 XCTAssert(false)
             }
@@ -30,7 +30,7 @@ class Tests: XCTestCase {
     
     func testRegexOperator() {
         self.measureBlock {
-            if !("abcABC123" =~ RegexPattern().UserName) {
+            if !("abcABC123" =~ RegexPattern.UserName) {
                 XCTAssert(false)
             }
         }
@@ -38,7 +38,7 @@ class Tests: XCTestCase {
     
     func testRegexString() {
         self.measureBlock {
-            if !("http://www.google.com".regex(RegexPattern().WebSite)) {
+            if !("http://www.google.com".regex(RegexPattern.WebSite)) {
                 XCTAssert(false)
             }
         }

@@ -8,18 +8,6 @@
 
 import Foundation
 
-public struct RegexPattern {
-    public init() {}
-    
-    public let Email     = "^([a-zA-Z0-9_\\.-]+)@([a-zA-Z0-9\\.-]+)\\.([a-zA-Z\\.]{2,6})$"
-    public let UserName  = "^[a-zA-Z0-9_-]{6,18}$"
-    public let Password  = "^[a-zA-Z0-9_-]{8,18}$"
-    public let WebSite   = "^(https?:\\/\\/)?([a-z0-9\\.-]+)\\.([a-z\\.]{2,6})([\\/\\w \\.-]*)*\\/?$"
-    public let IPAddress = "^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"
-    public let htmlTag   = "^<([a-z]+)([^<]+)*(?:>(.*)<\\/\\1>|\\s+\\/>)$"
-    public let Number    = "^\\d+([.]\\d+)?$"
-}
-
 public struct Regex {
     public var regex: NSRegularExpression?
     

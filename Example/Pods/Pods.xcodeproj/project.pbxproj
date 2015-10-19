@@ -8,68 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		08D8B01C4D17856C23E4FD993FB225E5 /* Pods-AXRegex_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F09CC164AF5C52986BFE3FA0164DEFD /* Pods-AXRegex_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AC603EF727548CAFDB51772E5C3649A /* AXRegex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D634BF8F8D45EC60BCB6DB0EAA882C6 /* AXRegex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1108B636C15586A561213A8FAE465F60 /* Pods-AXRegex_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E04C49503983D8ACCC8E780FB09E3734 /* Pods-AXRegex_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A27889AC008D6922D8459054961B1F7 /* AXRegex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AF5876B0C5BED511E853EE7E5F4983 /* AXRegex-dummy.m */; };
-		5EA5474F509ACD6722FED2574A8914B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F65C44C25BCC3A8101BD3F639547D4 /* Foundation.framework */; };
+		1A71196AD46037B20AEF55FEE5F876F2 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3A0BC0F8E449ABAF3415457E41C734 /* Regex.swift */; };
+		5EA5474F509ACD6722FED2574A8914B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B003F850C383DECBE7F1F771728426E /* Foundation.framework */; };
 		762D7F96DDCF5F6C33AA10CA7355157A /* Pods-AXRegex_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CEE1FD2B325F4859D5ED25F3A6491 /* Pods-AXRegex_Example-dummy.m */; };
 		7C687ABF35091BF81ECFF8ECC7F19966 /* Pods-AXRegex_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D9183FAC83BED3A24F0C9FF2E78DD3 /* Pods-AXRegex_Tests-dummy.m */; };
-		C96F2E9643421202F1DC8D756458DD5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F65C44C25BCC3A8101BD3F639547D4 /* Foundation.framework */; };
-		D6FFAE1A5D437B868F4965C67CDAF0F7 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901257FA1B564A8BC5C95C89209E612B /* Regex.swift */; };
-		EDF530C5C39C81F61F28BED8098DD107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F65C44C25BCC3A8101BD3F639547D4 /* Foundation.framework */; };
+		8CA7D8673053C7E483731B4C0AA01CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B003F850C383DECBE7F1F771728426E /* Foundation.framework */; };
+		903042C12519A2DCAC67226F8419B9AB /* AXRegex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6467ECDFD2D4542DE8489B78A5ECF3B /* AXRegex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A69258DE17563A221D21C8DE6119D0DC /* RegexPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2C22F009481EF13A786E73D293A43 /* RegexPattern.swift */; };
+		C4E623BB7C9AD725AF32802891F3A42D /* AXRegex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F16D0A5F2DB3E54D40CBC7AB09DF36 /* AXRegex-dummy.m */; };
+		C96F2E9643421202F1DC8D756458DD5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B003F850C383DECBE7F1F771728426E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		79A5872EFDBE35390C709E786FE2454D /* PBXContainerItemProxy */ = {
+		53480A442B3C9639E3D5BDD42E12B075 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B1F715235334CD149CEC5BD566B178C8;
+			remoteGlobalIDString = 44DBBCA83A72F0355F57AF95F78D6C2C;
 			remoteInfo = AXRegex;
 		};
-		E657342E3C7400D725999A28D8E34808 /* PBXContainerItemProxy */ = {
+		85702465ECD7384C58DF1ABDC3030AF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B1F715235334CD149CEC5BD566B178C8;
+			remoteGlobalIDString = 44DBBCA83A72F0355F57AF95F78D6C2C;
 			remoteInfo = AXRegex;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01AF5876B0C5BED511E853EE7E5F4983 /* AXRegex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXRegex-dummy.m"; sourceTree = "<group>"; };
 		04E3F3FE6C83134021B8367CE7A22F65 /* Pods-AXRegex_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AXRegex_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		054E6614E06608946BCE5C26A67578CF /* Pods-AXRegex_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXRegex_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		20B546F12CA22E1F1E01347C67DAD806 /* AXRegex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AXRegex.modulemap; sourceTree = "<group>"; };
 		27E55CA077F2BF0C078E8F50E5F62862 /* Pods_AXRegex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXRegex_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D634BF8F8D45EC60BCB6DB0EAA882C6 /* AXRegex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXRegex-umbrella.h"; sourceTree = "<group>"; };
+		2A2FBF43B8F7395F7789F4CEA011C638 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E62203518C3D6B3F0CAD2FA341E8D5B /* Pods_AXRegex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXRegex_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		368F1B77E86AE21410AE3029D8E038E4 /* AXRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AXRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36D67065ABAC4FBB756610754D46F98B /* AXRegex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXRegex-prefix.pch"; sourceTree = "<group>"; };
 		3B91A836B2E07BB7FFC7996251F26E3A /* Pods-AXRegex_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXRegex_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4238BE989E01715F5E7E4998134F9D6E /* Pods-AXRegex_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXRegex_Tests-resources.sh"; sourceTree = "<group>"; };
+		4B003F850C383DECBE7F1F771728426E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		50D06DE731585EEBCA992FB31B44B033 /* Pods-AXRegex_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AXRegex_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53F500073AAA3FCB7C2A18B3DC87348B /* AXRegex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXRegex.xcconfig; sourceTree = "<group>"; };
 		5B130C689CE9CF6087C7146460DA92C1 /* Pods-AXRegex_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXRegex_Example-resources.sh"; sourceTree = "<group>"; };
+		5E3A0BC0F8E449ABAF3415457E41C734 /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		5F09CC164AF5C52986BFE3FA0164DEFD /* Pods-AXRegex_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXRegex_Example-umbrella.h"; sourceTree = "<group>"; };
+		64832013D3C2C3398DCAD848CE663B82 /* AXRegex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXRegex-prefix.pch"; sourceTree = "<group>"; };
+		66E5BB82733C5D96EAA3123E8E6B129B /* AXRegex-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AXRegex-Private.xcconfig"; sourceTree = "<group>"; };
 		67B32F1F7AC01D86844D86CF2EDAF550 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		774D9B3625305D44AAF45882119CF74F /* Pods-AXRegex_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXRegex_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7849757211AE85EF2258D151272DEE37 /* Pods-AXRegex_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXRegex_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84BAD90D57B45D73489EF82B672750CE /* AXRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AXRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		890AA0AF800658D4AE7C302D3CA2D10F /* Pods-AXRegex_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXRegex_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		899A7C5C2DC8C0B32E2583650DBA1DCD /* Pods-AXRegex_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXRegex_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8C3BD9BA8CE3C7EA9D0CA58D4658DEFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		901257FA1B564A8BC5C95C89209E612B /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		93F16D0A5F2DB3E54D40CBC7AB09DF36 /* AXRegex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXRegex-dummy.m"; sourceTree = "<group>"; };
 		96D9183FAC83BED3A24F0C9FF2E78DD3 /* Pods-AXRegex_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AXRegex_Tests-dummy.m"; sourceTree = "<group>"; };
 		986CEE1FD2B325F4859D5ED25F3A6491 /* Pods-AXRegex_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AXRegex_Example-dummy.m"; sourceTree = "<group>"; };
-		A5F65C44C25BCC3A8101BD3F639547D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		AE1DA33DE2E9DD66653E14DC21711E41 /* Pods-AXRegex_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXRegex_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B6DEB5E68C9164BA95E1A35291ED881D /* AXRegex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXRegex.xcconfig; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAC2C22F009481EF13A786E73D293A43 /* RegexPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegexPattern.swift; sourceTree = "<group>"; };
 		BB3DDD20D50BAED8630C19D901422618 /* Pods-AXRegex_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AXRegex_Example.modulemap"; sourceTree = "<group>"; };
-		C4B724CE272D40EE9C5D3EF597D5C5FA /* AXRegex-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AXRegex-Private.xcconfig"; sourceTree = "<group>"; };
+		C6467ECDFD2D4542DE8489B78A5ECF3B /* AXRegex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXRegex-umbrella.h"; sourceTree = "<group>"; };
 		E04C49503983D8ACCC8E780FB09E3734 /* Pods-AXRegex_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXRegex_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E3A08292FDBA7DD091926153EABD9773 /* Pods-AXRegex_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AXRegex_Tests.modulemap"; sourceTree = "<group>"; };
 		E54E72629D2F5EF6B1D5EA948DC64FD5 /* Pods-AXRegex_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXRegex_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E94527BF5522DC8A24452E9D1B509694 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03558F1711B2ED5BA9F9F3F7E411D45 /* AXRegex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AXRegex.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F654260229E448D5D46FF19BFD375D7 /* Frameworks */ = {
+		2005218245D44C78F987E971169F3D41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF530C5C39C81F61F28BED8098DD107 /* Foundation.framework in Frameworks */,
+				8CA7D8673053C7E483731B4C0AA01CCB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,33 +102,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		47761D756617D7AA1D2742A42A7B885D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				20B546F12CA22E1F1E01347C67DAD806 /* AXRegex.modulemap */,
-				B6DEB5E68C9164BA95E1A35291ED881D /* AXRegex.xcconfig */,
-				C4B724CE272D40EE9C5D3EF597D5C5FA /* AXRegex-Private.xcconfig */,
-				01AF5876B0C5BED511E853EE7E5F4983 /* AXRegex-dummy.m */,
-				36D67065ABAC4FBB756610754D46F98B /* AXRegex-prefix.pch */,
-				2D634BF8F8D45EC60BCB6DB0EAA882C6 /* AXRegex-umbrella.h */,
-				E94527BF5522DC8A24452E9D1B509694 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AXRegex";
-			sourceTree = "<group>";
-		};
-		4AFEE8FB737082E7A48F9FFD88DEECC8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				901257FA1B564A8BC5C95C89209E612B /* Regex.swift */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A5F65C44C25BCC3A8101BD3F639547D4 /* Foundation.framework */,
+				4B003F850C383DECBE7F1F771728426E /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -149,6 +128,15 @@
 			path = "Target Support Files/Pods-AXRegex_Example";
 			sourceTree = "<group>";
 		};
+		7D896B78F80E864CE19E814292166CF7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5E3A0BC0F8E449ABAF3415457E41C734 /* Regex.swift */,
+				BAC2C22F009481EF13A786E73D293A43 /* RegexPattern.swift */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -160,14 +148,19 @@
 			);
 			sourceTree = "<group>";
 		};
-		92B7BBE26FA8D94A0A0AEB5194260457 /* AXRegex */ = {
+		94F09096ECBF6CFF75A7EBE3AB41EEAE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4AFEE8FB737082E7A48F9FFD88DEECC8 /* Pod */,
-				47761D756617D7AA1D2742A42A7B885D /* Support Files */,
+				F03558F1711B2ED5BA9F9F3F7E411D45 /* AXRegex.modulemap */,
+				53F500073AAA3FCB7C2A18B3DC87348B /* AXRegex.xcconfig */,
+				66E5BB82733C5D96EAA3123E8E6B129B /* AXRegex-Private.xcconfig */,
+				93F16D0A5F2DB3E54D40CBC7AB09DF36 /* AXRegex-dummy.m */,
+				64832013D3C2C3398DCAD848CE663B82 /* AXRegex-prefix.pch */,
+				C6467ECDFD2D4542DE8489B78A5ECF3B /* AXRegex-umbrella.h */,
+				2A2FBF43B8F7395F7789F4CEA011C638 /* Info.plist */,
 			);
-			name = AXRegex;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AXRegex";
 			sourceTree = "<group>";
 		};
 		B276FBCF0F14BD6295053FFB76E8B7AA /* Targets Support Files */ = {
@@ -208,7 +201,7 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				368F1B77E86AE21410AE3029D8E038E4 /* AXRegex.framework */,
+				84BAD90D57B45D73489EF82B672750CE /* AXRegex.framework */,
 				27E55CA077F2BF0C078E8F50E5F62862 /* Pods_AXRegex_Example.framework */,
 				2E62203518C3D6B3F0CAD2FA341E8D5B /* Pods_AXRegex_Tests.framework */,
 			);
@@ -218,19 +211,29 @@
 		E457A98ADA8F743D86FCAD2FD499096C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				92B7BBE26FA8D94A0A0AEB5194260457 /* AXRegex */,
+				F6F16DD438943DFB0261F6D70C6DAE47 /* AXRegex */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F6F16DD438943DFB0261F6D70C6DAE47 /* AXRegex */ = {
+			isa = PBXGroup;
+			children = (
+				7D896B78F80E864CE19E814292166CF7 /* Pod */,
+				94F09096ECBF6CFF75A7EBE3AB41EEAE /* Support Files */,
+			);
+			name = AXRegex;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28675A0DA2CB74B47DBB9031566805BC /* Headers */ = {
+		38ED0A7057C9ACE89DF587848EF74077 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AC603EF727548CAFDB51772E5C3649A /* AXRegex-umbrella.h in Headers */,
+				903042C12519A2DCAC67226F8419B9AB /* AXRegex-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,20 +267,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				EE4488175A8E874F20EDE90CCEBAEA41 /* PBXTargetDependency */,
+				C5BC21CECB47E3D46CF3C3606BE9928E /* PBXTargetDependency */,
 			);
 			name = "Pods-AXRegex_Example";
 			productName = "Pods-AXRegex_Example";
 			productReference = 27E55CA077F2BF0C078E8F50E5F62862 /* Pods_AXRegex_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B1F715235334CD149CEC5BD566B178C8 /* AXRegex */ = {
+		44DBBCA83A72F0355F57AF95F78D6C2C /* AXRegex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAC638F85CC8B2C14F9F1DAE1882BC01 /* Build configuration list for PBXNativeTarget "AXRegex" */;
+			buildConfigurationList = FFBD0F65940CD08C405C05F7EE3692DD /* Build configuration list for PBXNativeTarget "AXRegex" */;
 			buildPhases = (
-				A17B1F0C598EAC28AD8949D35D526CDA /* Sources */,
-				5F654260229E448D5D46FF19BFD375D7 /* Frameworks */,
-				28675A0DA2CB74B47DBB9031566805BC /* Headers */,
+				193F305095BE0DA59DB61ABA1A63249F /* Sources */,
+				2005218245D44C78F987E971169F3D41 /* Frameworks */,
+				38ED0A7057C9ACE89DF587848EF74077 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -285,7 +288,7 @@
 			);
 			name = AXRegex;
 			productName = AXRegex;
-			productReference = 368F1B77E86AE21410AE3029D8E038E4 /* AXRegex.framework */;
+			productReference = 84BAD90D57B45D73489EF82B672750CE /* AXRegex.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E1CC323771BAB0B3C75878E5EDDE4D56 /* Pods-AXRegex_Tests */ = {
@@ -299,7 +302,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				38E6D623A1361F6CE9AE0CF946563D31 /* PBXTargetDependency */,
+				F8F9052F1E681BDFD4DE57DDA242EE13 /* PBXTargetDependency */,
 			);
 			name = "Pods-AXRegex_Tests";
 			productName = "Pods-AXRegex_Tests";
@@ -327,7 +330,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1F715235334CD149CEC5BD566B178C8 /* AXRegex */,
+				44DBBCA83A72F0355F57AF95F78D6C2C /* AXRegex */,
 				24F0E921D862B695E96BF370345E030A /* Pods-AXRegex_Example */,
 				E1CC323771BAB0B3C75878E5EDDE4D56 /* Pods-AXRegex_Tests */,
 			);
@@ -335,6 +338,16 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		193F305095BE0DA59DB61ABA1A63249F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E623BB7C9AD725AF32802891F3A42D /* AXRegex-dummy.m in Sources */,
+				1A71196AD46037B20AEF55FEE5F876F2 /* Regex.swift in Sources */,
+				A69258DE17563A221D21C8DE6119D0DC /* RegexPattern.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7297FD8AB7E082DA9D7A432F6016C16C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,29 +364,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A17B1F0C598EAC28AD8949D35D526CDA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A27889AC008D6922D8459054961B1F7 /* AXRegex-dummy.m in Sources */,
-				D6FFAE1A5D437B868F4965C67CDAF0F7 /* Regex.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		38E6D623A1361F6CE9AE0CF946563D31 /* PBXTargetDependency */ = {
+		C5BC21CECB47E3D46CF3C3606BE9928E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AXRegex;
-			target = B1F715235334CD149CEC5BD566B178C8 /* AXRegex */;
-			targetProxy = E657342E3C7400D725999A28D8E34808 /* PBXContainerItemProxy */;
+			target = 44DBBCA83A72F0355F57AF95F78D6C2C /* AXRegex */;
+			targetProxy = 53480A442B3C9639E3D5BDD42E12B075 /* PBXContainerItemProxy */;
 		};
-		EE4488175A8E874F20EDE90CCEBAEA41 /* PBXTargetDependency */ = {
+		F8F9052F1E681BDFD4DE57DDA242EE13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AXRegex;
-			target = B1F715235334CD149CEC5BD566B178C8 /* AXRegex */;
-			targetProxy = 79A5872EFDBE35390C709E786FE2454D /* PBXContainerItemProxy */;
+			target = 44DBBCA83A72F0355F57AF95F78D6C2C /* AXRegex */;
+			targetProxy = 85702465ECD7384C58DF1ABDC3030AF5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -411,61 +415,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		2BC76E85502013FA67984885C654CF6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4B724CE272D40EE9C5D3EF597D5C5FA /* AXRegex-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AXRegex/AXRegex-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AXRegex/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AXRegex/AXRegex.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AXRegex;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		447D1B6BA98E4816E2CC10A271C00356 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4B724CE272D40EE9C5D3EF597D5C5FA /* AXRegex-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AXRegex/AXRegex-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AXRegex/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AXRegex/AXRegex.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AXRegex;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -505,6 +454,33 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		5B0C526DBFF641B53A3219A10FBBA2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E5BB82733C5D96EAA3123E8E6B129B /* AXRegex-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AXRegex/AXRegex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AXRegex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AXRegex/AXRegex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AXRegex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		65062FA7AE6AFD7D575DAFCE25152623 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -563,6 +539,34 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7676D6DE41FD7FFAA2739CB0476312BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E5BB82733C5D96EAA3123E8E6B129B /* AXRegex-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AXRegex/AXRegex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AXRegex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AXRegex/AXRegex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AXRegex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7F9B4DD55672A9FCBB619A990EC9166C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -654,11 +658,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAC638F85CC8B2C14F9F1DAE1882BC01 /* Build configuration list for PBXNativeTarget "AXRegex" */ = {
+		FFBD0F65940CD08C405C05F7EE3692DD /* Build configuration list for PBXNativeTarget "AXRegex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				447D1B6BA98E4816E2CC10A271C00356 /* Debug */,
-				2BC76E85502013FA67984885C654CF6C /* Release */,
+				7676D6DE41FD7FFAA2739CB0476312BF /* Debug */,
+				5B0C526DBFF641B53A3219A10FBBA2F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
