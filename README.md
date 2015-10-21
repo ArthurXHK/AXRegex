@@ -76,7 +76,7 @@ I created a demo app for AXRegex. Welcome to create issues when you meet any pro
 本人创建了一个范例应用。若遇到任何问题，欢迎提问。
 
 <p align="center" >
-  <img src="https://github.com/ArthurXHK/AXRegex/tree/master/Example/Screenshots/Demo.png" alt="Demo" title="Demo">
+  <img src="https://raw.githubusercontent.com/ArthurXHK/AXRegex/master/Example/Screenshots/Demo.png" alt="Demo" title="Demo" width="375" height="667">
 </p>
 
 ## Requirements
