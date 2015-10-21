@@ -20,8 +20,8 @@ You can match regex like this:
 
 ```swift
 let regex = Regex("^[a-zA-Z0-9_-]{6,18}$")
-regex.match("userNameA") // Return Bool
-regex.match("userNameB") // Return Bool
+regex.match("userNameA")
+regex.match("userNameB")
 ```
 
 or this:
@@ -29,7 +29,7 @@ or this:
 或者这样用:
 
 ```swift
-regexMatch("userName", pattern: "^[a-zA-Z0-9_-]{6,18}$") // Return Bool
+regexMatch("userName", pattern: "^[a-zA-Z0-9_-]{6,18}$")
 ```
 
 even this:
@@ -37,7 +37,7 @@ even this:
 甚至这样用:
 
 ```swift
-"userName".regex("^[a-zA-Z0-9_-]{6,18}$") // Return Bool
+"userName".regex("^[a-zA-Z0-9_-]{6,18}$")
 ```
 
 But my favorites is like this:
@@ -45,16 +45,39 @@ But my favorites is like this:
 不过我还是最喜欢这样用:
 
 ```swift
-"userName" =~ "^[a-zA-Z0-9_-]{6,18}$" // Return Bool
+"userName" =~ "^[a-zA-Z0-9_-]{6,18}$"
 ``` 
+
+All of them will return a struct "RegexResult"
+
+这些方法都会返回一个结构体"RegexResult“。
+
+```swift
+public struct RegexResult {
+    public let text: String
+    public var matches: [(content:String, range: NSRange, type: NSTextCheckingType)]
+    public var hasMatch: Bool
+    public var isCompleteMatch: Bool
+}
+```
 
 It also prepares some common pattern: Email, Website, IP Address, etc. Welcome for adding more.
 
 还准备了一些常用的正则, 如: 邮箱, 网址, IP地址, 等等(欢迎大家来补充)。
 
 ```swift
-"http://www.google.com" =~ RegexPattern().WebSite
+"http://www.google.com" =~ RegexPattern.WebSite
 ```
+
+## Demo
+
+I created a demo app for AXRegex. Welcome to create issues when you meet any problems.
+
+本人创建了一个范例应用。若遇到任何问题，欢迎提问。
+
+<p align="center" >
+  <img src="https://github.com/ArthurXHK/AXRegex/tree/master/Example/Screenshots/Demo.png" alt="Demo" title="Demo">
+</p>
 
 ## Requirements
 

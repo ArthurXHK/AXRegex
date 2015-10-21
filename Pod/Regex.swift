@@ -8,19 +8,26 @@
 
 import Foundation
 
-public struct RegexPattern {
-    public init() {}
+public struct RegexResult {
     
-    public let Email     = "^([a-zA-Z0-9_\\.-]+)@([a-zA-Z0-9\\.-]+)\\.([a-zA-Z\\.]{2,6})$"
-    public let UserName  = "^[a-zA-Z0-9_-]{6,18}$"
-    public let Password  = "^[a-zA-Z0-9_-]{8,18}$"
-    public let WebSite   = "^(https?:\\/\\/)?([a-z0-9\\.-]+)\\.([a-z\\.]{2,6})([\\/\\w \\.-]*)*\\/?$"
-    public let IPAddress = "^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"
-    public let htmlTag   = "^<([a-z]+)([^<]+)*(?:>(.*)<\\/\\1>|\\s+\\/>)$"
-    public let Number    = "^\\d+([.]\\d+)?$"
+    public let text: String
+    public var matches = [(content:String, range: NSRange, type: NSTextCheckingType)]()
+    
+    public init(_ text: String) {
+        self.text = text
+    }
+    
+    public var hasMatch: Bool {
+        return self.matches.count>0
+    }
+    public var isCompleteMatch: Bool {
+        guard self.matches.count==1 else {return false}
+        return self.matches[0].content.characters.count==self.text.characters.count
+    }
 }
 
 public struct Regex {
+    
     public var regex: NSRegularExpression?
     
     public init(_ pattern: String, options: NSRegularExpressionOptions=[]) {
@@ -31,34 +38,43 @@ public struct Regex {
         }
     }
     
-    public func match(text: String) -> Bool {
-        guard let regex = self.regex else {return false}
+    public func match(text: String) -> RegexResult {
+        var result = RegexResult(text)
+        guard let regex = self.regex else {return result}
         let matches = regex.matchesInString(text, options: .ReportCompletion, range: NSMakeRange(0, text.characters.count))
-        return matches.count > 0
+        for matchResult in matches {
+            let content = (text as NSString).substringWithRange(matchResult.range)
+            result.matches.append((content, matchResult.range, matchResult.resultType))
+        }
+        return result
     }
 }
 
-public func regexMatch(text: String, pattern: String, options: NSRegularExpressionOptions=[]) -> Bool {
+public func regexMatch(text: String, pattern: String, options: NSRegularExpressionOptions=[]) -> RegexResult {
+    var result = RegexResult(text)
     do{
         let regex = try NSRegularExpression(pattern: pattern, options:options)
-        let matches = regex.matchesInString(text, options: .ReportCompletion, range: NSMakeRange(0, text.characters.count))
-        return matches.count > 0
+        let matches = regex.matchesInString(text, options:.ReportCompletion, range: NSMakeRange(0, text.characters.count))
+        for matchResult in matches {
+            let content = (text as NSString).substringWithRange(matchResult.range)
+            result.matches.append((content, matchResult.range, matchResult.resultType))
+        }
     } catch {
         print("Fail to init Regex with pattern[\(pattern)]")
     }
-    return false
+    return result
 }
 
 infix operator =~ {
 associativity none
 precedence 130
 }
-public func =~ (lhs: String, rhs: String) -> Bool {
+public func =~ (lhs: String, rhs: String) -> RegexResult {
     return regexMatch(lhs, pattern: rhs)
 }
 
 extension String {
-    public func regex(pattern: String) -> Bool {
+    public func regex(pattern: String) -> RegexResult {
         return regexMatch(self, pattern: pattern)
     }
 }
