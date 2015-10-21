@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name    = "AXRegex"
-  s.version = "0.1.0"
+  s.version = "0.2.2"
   s.summary = "A easy way to use regex in Swift."
 
   s.description = <<-DESC
