@@ -1,6 +1,0 @@
-framework module AXRegex {
-  umbrella header "AXRegex-umbrella.h"
-
-  export *
-  module * { export * }
-}

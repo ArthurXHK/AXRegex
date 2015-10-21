@@ -1,5 +1,5 @@
 PODS:
-  - AXRegex (0.1.0)
+  - AXRegex (0.2.2)
 
 DEPENDENCIES:
   - AXRegex (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AXRegex: 4f832a418f0c390f8ac1e3915ba7d87817262a92
+  AXRegex: c5318a39d28822eef3e72ac0d4c42603e10fe282
 
 COCOAPODS: 0.38.2
