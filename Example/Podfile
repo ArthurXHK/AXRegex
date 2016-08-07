@@ -1,12 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'AXRegex_Example', :exclusive => true do
+target 'AXRegex_Example' do
   pod "AXRegex", :path => "../"
 end
 
-target 'AXRegex_Tests', :exclusive => true do
+target 'AXRegex_Tests' do
   pod "AXRegex", :path => "../"
-
-  
 end

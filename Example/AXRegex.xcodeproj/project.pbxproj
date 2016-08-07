@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E7E4DA030E78892CD05A766 /* Pods_AXRegex_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287EABE9EDB9EDDF06CD6CB9 /* Pods_AXRegex_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		F01E8585677D5A53B63CB880 /* Pods_AXRegex_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE7371A4C2D4F87C986E2C0 /* Pods_AXRegex_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B7BCEFFAF2BAA1FEF720AE20 /* Pods_AXRegex_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D751F514BC7BB077FE16963 /* Pods_AXRegex_Example.framework */; };
+		BB4890C6687E02F0E2776B70 /* Pods_AXRegex_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3024E8274F61B7488CBB51 /* Pods_AXRegex_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EE7371A4C2D4F87C986E2C0 /* Pods_AXRegex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXRegex_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		123F53958B7CB16FAB7537DB /* AXRegex.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AXRegex.podspec; path = ../AXRegex.podspec; sourceTree = "<group>"; };
-		287EABE9EDB9EDDF06CD6CB9 /* Pods_AXRegex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXRegex_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		384AD16F967612B068D6C95D /* Pods-AXRegex_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXRegex_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXRegex_Tests/Pods-AXRegex_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A61564462E675B17D95BC2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		521193F72F555FF850592367 /* Pods-AXRegex_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXRegex_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXRegex_Tests/Pods-AXRegex_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3D751F514BC7BB077FE16963 /* Pods_AXRegex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXRegex_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* AXRegex_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXRegex_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,10 +41,13 @@
 		607FACE51AFB9204008FA782 /* AXRegex_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXRegex_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		7C3024E8274F61B7488CBB51 /* Pods_AXRegex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXRegex_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E24B3681BCFEE9B00F2305C /* AXRegex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AXRegex.framework; path = "Pods/../build/Debug-iphoneos/AXRegex.framework"; sourceTree = "<group>"; };
-		9522DA0C43464D2ECE998276 /* Pods-AXRegex_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXRegex_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXRegex_Example/Pods-AXRegex_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AB92512DE237AC204DF0C07B /* Pods-AXRegex_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXRegex_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXRegex_Example/Pods-AXRegex_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9AD60D5A8850C7B360861EBB /* Pods-AXRegex_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXRegex_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXRegex_Example/Pods-AXRegex_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B80CE652846C99B202BCB9F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D37042CE7EBAE8070397F763 /* Pods-AXRegex_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXRegex_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXRegex_Example/Pods-AXRegex_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E4C16EADEBF2E6F85D9846EC /* Pods-AXRegex_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXRegex_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXRegex_Tests/Pods-AXRegex_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EDF675E8141C921E1CF75C00 /* Pods-AXRegex_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXRegex_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXRegex_Tests/Pods-AXRegex_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F01E8585677D5A53B63CB880 /* Pods_AXRegex_Example.framework in Frameworks */,
+				B7BCEFFAF2BAA1FEF720AE20 /* Pods_AXRegex_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E7E4DA030E78892CD05A766 /* Pods_AXRegex_Tests.framework in Frameworks */,
+				BB4890C6687E02F0E2776B70 /* Pods_AXRegex_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +77,8 @@
 				607FACD21AFB9204008FA782 /* Example for AXRegex */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				907EB5D5247044015229076F /* Pods */,
 				999F72DD539142F0AE8649F3 /* Frameworks */,
+				C503DBC8B53548C3E8F4AC62 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,25 +140,25 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		907EB5D5247044015229076F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AB92512DE237AC204DF0C07B /* Pods-AXRegex_Example.debug.xcconfig */,
-				9522DA0C43464D2ECE998276 /* Pods-AXRegex_Example.release.xcconfig */,
-				384AD16F967612B068D6C95D /* Pods-AXRegex_Tests.debug.xcconfig */,
-				521193F72F555FF850592367 /* Pods-AXRegex_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		999F72DD539142F0AE8649F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				8E24B3681BCFEE9B00F2305C /* AXRegex.framework */,
-				0EE7371A4C2D4F87C986E2C0 /* Pods_AXRegex_Example.framework */,
-				287EABE9EDB9EDDF06CD6CB9 /* Pods_AXRegex_Tests.framework */,
+				3D751F514BC7BB077FE16963 /* Pods_AXRegex_Example.framework */,
+				7C3024E8274F61B7488CBB51 /* Pods_AXRegex_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C503DBC8B53548C3E8F4AC62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AD60D5A8850C7B360861EBB /* Pods-AXRegex_Example.debug.xcconfig */,
+				D37042CE7EBAE8070397F763 /* Pods-AXRegex_Example.release.xcconfig */,
+				EDF675E8141C921E1CF75C00 /* Pods-AXRegex_Tests.debug.xcconfig */,
+				E4C16EADEBF2E6F85D9846EC /* Pods-AXRegex_Tests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,12 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AXRegex_Example" */;
 			buildPhases = (
-				00F3636C79534AB0E1E446F4 /* Check Pods Manifest.lock */,
+				77098A42D9F88593B7BFB0E6 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				CB2B38BD5DAAF31C203A49D9 /* Embed Pods Frameworks */,
-				1C19236EFF275C43DCFAD6AE /* Copy Pods Resources */,
+				9F339E1D0C439441941B9899 /* [CP] Embed Pods Frameworks */,
+				96FF42FFA441EA8313D75451 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,12 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AXRegex_Tests" */;
 			buildPhases = (
-				B26D56EAA37167AD57AE1677 /* Check Pods Manifest.lock */,
+				A7733791E88083D0445827DF /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				0D868968BDD81355FBD0B8A1 /* Embed Pods Frameworks */,
-				FBC77A49E136494880A9A7E6 /* Copy Pods Resources */,
+				289DF47AA3CF73B08E76BB86 /* [CP] Embed Pods Frameworks */,
+				0768F50B56697E3C183D4B69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,11 +212,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -264,29 +265,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00F3636C79534AB0E1E446F4 /* Check Pods Manifest.lock */ = {
+		0768F50B56697E3C183D4B69 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXRegex_Tests/Pods-AXRegex_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0D868968BDD81355FBD0B8A1 /* Embed Pods Frameworks */ = {
+		289DF47AA3CF73B08E76BB86 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,29 +295,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXRegex_Tests/Pods-AXRegex_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1C19236EFF275C43DCFAD6AE /* Copy Pods Resources */ = {
+		77098A42D9F88593B7BFB0E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXRegex_Example/Pods-AXRegex_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B26D56EAA37167AD57AE1677 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,14 +310,29 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		CB2B38BD5DAAF31C203A49D9 /* Embed Pods Frameworks */ = {
+		96FF42FFA441EA8313D75451 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXRegex_Example/Pods-AXRegex_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F339E1D0C439441941B9899 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,19 +340,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXRegex_Example/Pods-AXRegex_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FBC77A49E136494880A9A7E6 /* Copy Pods Resources */ = {
+		A7733791E88083D0445827DF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXRegex_Tests/Pods-AXRegex_Tests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -441,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -479,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -488,37 +489,48 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB92512DE237AC204DF0C07B /* Pods-AXRegex_Example.debug.xcconfig */;
+			baseConfigurationReference = 9AD60D5A8850C7B360861EBB /* Pods-AXRegex_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AXRegex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9522DA0C43464D2ECE998276 /* Pods-AXRegex_Example.release.xcconfig */;
+			baseConfigurationReference = D37042CE7EBAE8070397F763 /* Pods-AXRegex_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AXRegex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 384AD16F967612B068D6C95D /* Pods-AXRegex_Tests.debug.xcconfig */;
+			baseConfigurationReference = EDF675E8141C921E1CF75C00 /* Pods-AXRegex_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -528,20 +540,25 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AXRegex_Example.app/AXRegex_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 521193F72F555FF850592367 /* Pods-AXRegex_Tests.release.xcconfig */;
+			baseConfigurationReference = E4C16EADEBF2E6F85D9846EC /* Pods-AXRegex_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AXRegex_Example.app/AXRegex_Example";
 			};
 			name = Release;
