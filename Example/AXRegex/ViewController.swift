@@ -17,10 +17,10 @@ class ViewController: UIViewController, UITextViewDelegate, UIPickerViewDataSour
     @IBOutlet weak var resultTable: UITableView!
     
     var regexResult: RegexResult?
-    var regexPattern: String = RegexPattern.HtmlTag
+    var regexPattern: String = RegexPattern.HtmlTagPattern
     
     // MARK: - Life Cycle -
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.refreshResult()
     }
@@ -30,26 +30,26 @@ class ViewController: UIViewController, UITextViewDelegate, UIPickerViewDataSour
         self.regexResult = textView.text =~ regexPattern
         resultTable.reloadData()
         if let row = self.regexResult?.matches.count where row>0 {
-            resultTable.scrollToRowAtIndexPath(NSIndexPath(forRow: row-1, inSection: 0), atScrollPosition: .None, animated: true)
+            resultTable.scrollToRow(at: IndexPath(row: row-1, section: 0), at: .none, animated: true)
         }
     }
     
     // MARK: - Delegate -
     // MARK: UITextViewDelegate
-    func textViewDidChange(textView: UITextView) {
+    func textViewDidChange(_ textView: UITextView) {
         self.refreshResult()
     }
     
     // MARK: UIPickerViewDataSource
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
-    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return 6
     }
     
     // MARK: UIPickerViewDelegate
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         var title: String
         switch row {
         case 0:
@@ -69,20 +69,20 @@ class ViewController: UIViewController, UITextViewDelegate, UIPickerViewDataSour
         }
         return title
     }
-    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         switch row {
         case 0:
-            regexPattern = RegexPattern.HtmlTag
+            regexPattern = RegexPattern.HtmlTagPattern
         case 1:
-            regexPattern = RegexPattern.Email
+            regexPattern = RegexPattern.EmailPattern
         case 2:
-            regexPattern = RegexPattern.IPAddress
+            regexPattern = RegexPattern.IPAddressPattern
         case 3:
-            regexPattern = RegexPattern.WebSite
+            regexPattern = RegexPattern.WebSitePattern
         case 4:
-            regexPattern = RegexPattern.Number
+            regexPattern = RegexPattern.NumberPattern
         case 5:
-            regexPattern = RegexPattern.Chinese
+            regexPattern = RegexPattern.ChinesePattern
         default:
             regexPattern = ""
         }
@@ -90,12 +90,12 @@ class ViewController: UIViewController, UITextViewDelegate, UIPickerViewDataSour
     }
     
     // MARK: UITableViewDataSource
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         guard let result = regexResult else {return 0}
         return result.matches.count
     }
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .Default, reuseIdentifier: "Cell")
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .default, reuseIdentifier: "Cell")
         if let match=regexResult?.matches[indexPath.row], label=cell.textLabel {
             label.text = match.content
         }
